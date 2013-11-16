@@ -1,12 +1,15 @@
 <html>
     <head>
         <script src="jquery-1.9.1.js"></script>
-        <script src="unerscore.js"></script>
+        <script src="underscore.js"></script>
         <script src="backbone.min.js"></script>
         <script src="main.js"></script>
     </head>
     <body>
-        <p id="score"></p>
-        <canvas id="canvas" width="500" height="500" style="display:block; margin:0 auto;"></canvas>
+        <div style="display:block; margin:0 auto; width:500px">
+            <div>Score: <span id="score">0</span></div>
+            <div>Crackometer: <span id="crack">0</span>/100</div>
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
     </body>
 </html>
